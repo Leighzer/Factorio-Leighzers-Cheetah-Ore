@@ -1,0 +1,58 @@
+data:extend(
+{    
+        {
+            type = "item",
+            name = "cheetah-ore",
+            icon = "__leighzercheetahore__/graphics/cheetah-ore.png",
+            icon_size = 32,            
+            subgroup = "raw-resource",
+            order = "a-d-f",
+            stack_size = 50,
+            fuel_category = "chemical",
+            fuel_value = "250KJ",
+            fuel_acceleration_multiplier = 2.5,
+            fuel_top_speed_multiplier = 1.15,
+        },
+          
+        {
+          type = "item",
+          name = "cheetah-fuel",
+          icon = "__leighzercheetahore__/graphics/cheetah-fuel.png",
+          icon_size = 32,            
+          subgroup = "raw-material",
+          order = "c[solid-fuel]-a",
+          stack_size = 50,
+          fuel_category = "chemical",
+          fuel_value = "3MJ",
+          fuel_acceleration_multiplier = 3,
+          fuel_top_speed_multiplier = 1.3,
+        },
+
+        {
+            type = "item",
+            name = "slow-cheetah-fuel",
+            icon = "__leighzercheetahore__/graphics/slow-cheetah-fuel.png",
+            icon_size = 32,            
+            subgroup = "raw-material",
+            order = "c[solid-fuel]-b",
+            stack_size = 50,
+            fuel_category = "chemical",
+            fuel_value = "75MJ",
+            fuel_acceleration_multiplier = 0.5,
+            fuel_top_speed_multiplier = 0.5,
+        },
+
+        {
+            type = "item",
+            name = "nuclear-cheetah-fuel",
+            icon = "__leighzercheetahore__/graphics/nuclear-cheetah-fuel.png",
+            icon_size = 32,            
+            subgroup = "intermediate-product",
+            order = "q[uranium-rocket-fuel]-z",
+            stack_size = 1,
+            fuel_category = "chemical",
+            fuel_value = "600MJ",
+            fuel_acceleration_multiplier = 5,
+            fuel_top_speed_multiplier = 3,
+        },
+})
