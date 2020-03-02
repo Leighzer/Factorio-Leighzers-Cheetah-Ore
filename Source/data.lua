@@ -14,8 +14,8 @@ require("prototypes.particle")--protoypes for particles that fly when you hand m
 require("prototypes.mapgen")--autoplace control and noise layer
 require("prototypes.resource")--the actual entity that is in the ground
 require("prototypes.item")--prototypes for objects that exist in inventory
-require("prototypes.recipe")--prototypes for recipe/technology definitions
-require("prototypes.technology")--prototypes for recipe/technology definitions
+require("prototypes.recipe")--prototypes for recipe definitions
+require("prototypes.technology")--prototypes for technology definitions
 
 table.insert(leighzermods.leighzercheetahore.productivityEnabledRecipes, 'cheetah-fuel')
 table.insert(leighzermods.leighzercheetahore.productivityEnabledRecipes, 'slow-cheetah-fuel')

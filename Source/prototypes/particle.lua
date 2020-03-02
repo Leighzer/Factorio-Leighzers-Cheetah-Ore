@@ -2,7 +2,7 @@
 data:extend(
     {
       {--prototype for particles that fly out when you hand mine the ore in the ground
-        type = "particle",
+        type = "optimized-particle",
         name = "cheetah-ore-particle",
         flags = {"not-on-map"},
         life_time = 180,
