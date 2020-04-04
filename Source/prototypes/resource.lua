@@ -8,7 +8,7 @@ data:extend(
        icon = "__leighzercheetahore__/graphics/cheetah-ore.png",
        icon_size = 32,
        flags = {"placeable-neutral"},
-       order="h",
+       order="x-c",
        map_color = {r=164/255, g=139/255, b=78/255},--color used for ore patch when viewed from mini map
        minable =
        {     

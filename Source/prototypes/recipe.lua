@@ -12,8 +12,8 @@ data:extend({
                        {type="fluid",name="light-oil", amount=10}},
         result = "cheetah-fuel",
         result_count = 1,
-        subgroup = "fluid-recipes",
-        order = "m"
+        subgroup = "leighzercheetahore",
+        order = "zb"
         },
 
         {
@@ -29,8 +29,8 @@ data:extend({
                            {type="fluid",name="sulfuric-acid", amount=10}},
             result = "slow-cheetah-fuel",
             result_count = 1,
-            subgroup = "fluid-recipes",
-            order = "ma"
+            subgroup = "leighzercheetahore",
+            order = "zc"
         },
 
         {
@@ -46,7 +46,7 @@ data:extend({
                            {type="item",name="uranium-238", amount=1}},
             result = "nuclear-cheetah-fuel",
             result_count = 1,      
-            order = "z",
-            subgroup = "intermediate-product"                  
+            order = "zd",
+            subgroup = "leighzercheetahore"                  
         },
     })

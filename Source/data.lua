@@ -10,6 +10,7 @@ if not leighzermods.leighzercheetahore.productivityEnabledRecipes then --list of
     leighzermods.leighzercheetahore.productivityEnabledRecipes = {}
 end
 
+require("prototypes.category")--add crafting menu row in intermediate product crafting tab
 require("prototypes.particle")--protoypes for particles that fly when you hand mine cheetah ore
 require("prototypes.mapgen")--autoplace control and noise layer
 require("prototypes.resource")--the actual entity that is in the ground

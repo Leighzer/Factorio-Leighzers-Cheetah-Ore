@@ -5,7 +5,7 @@ data:extend(
         type = "autoplace-control",
         name = "cheetah-ore",
         richness = true,
-        order = "b-g",
+        order = "x-c",
         category="resource"
         },
         {

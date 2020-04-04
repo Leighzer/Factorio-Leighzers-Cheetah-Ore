@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+  Changes:
+    - Added row just for cheetah ore related items in intermediate product crafting tab.
+    - Updated item ordering.
+    - Updated autoplace control ordering.
+    - Updated recipe ordering.
+    - Updated resource ordering (editor menu).
+
+---------------------------------------------------------------------------------------------------
 Version: 0.2.1
   Changes:
     - Add optional dependency with RSO now that it is supported.
