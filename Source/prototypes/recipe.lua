@@ -13,7 +13,13 @@ data:extend({
         result = "cheetah-fuel",
         result_count = 1,
         subgroup = "leighzercheetahore",
-        order = "zb"
+        order = "zb",
+        crafting_machine_tint = {
+            primary = leighzermods.leighzercheetahore.craftingMachineTint,
+            secondary = leighzermods.leighzercheetahore.craftingMachineTint,
+            tertiary = leighzermods.leighzercheetahore.craftingMachineTint,
+            quaternary = leighzermods.leighzercheetahore.craftingMachineTint,
+        }
         },
 
         {
@@ -30,7 +36,13 @@ data:extend({
             result = "slow-cheetah-fuel",
             result_count = 1,
             subgroup = "leighzercheetahore",
-            order = "zc"
+            order = "zc",
+            crafting_machine_tint = {
+                primary = leighzermods.leighzercheetahore.craftingMachineTint,
+                secondary = leighzermods.leighzercheetahore.craftingMachineTint,
+                tertiary = leighzermods.leighzercheetahore.craftingMachineTint,
+                quaternary = leighzermods.leighzercheetahore.craftingMachineTint,
+            }
         },
 
         {
@@ -47,6 +59,12 @@ data:extend({
             result = "nuclear-cheetah-fuel",
             result_count = 1,      
             order = "zd",
-            subgroup = "leighzercheetahore"                  
+            subgroup = "leighzercheetahore",
+            crafting_machine_tint = {
+                primary = leighzermods.leighzercheetahore.craftingMachineTint,
+                secondary = leighzermods.leighzercheetahore.craftingMachineTint,
+                tertiary = leighzermods.leighzercheetahore.craftingMachineTint,
+                quaternary = leighzermods.leighzercheetahore.craftingMachineTint,
+            }
         },
     })

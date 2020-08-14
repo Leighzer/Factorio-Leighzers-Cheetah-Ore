@@ -4,6 +4,8 @@ end
 
 if not leighzermods.leighzercheetahore then
     leighzermods.leighzercheetahore = {}
+
+    leighzermods.leighzercheetahore.craftingMachineTint = {r=224/255,g=162/255,b=0/255,a=1}
 end
 
 if not leighzermods.leighzercheetahore.productivityEnabledRecipes then --list of recipe names that are going to get productivity modules enabled

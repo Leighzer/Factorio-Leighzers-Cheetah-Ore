@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+  Changes:
+    - Version bump for 1.0
+    - Added chemical plant tint to color smoke that is spewed to look like cheetah ore.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.2
   Changes:
     - Added row just for cheetah ore related items in intermediate product crafting tab.
