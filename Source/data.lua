@@ -22,15 +22,14 @@ require("prototypes.technology")--prototypes for technology definitions
 
 table.insert(leighzermods.leighzercheetahore.productivityEnabledRecipes, 'cheetah-fuel')
 table.insert(leighzermods.leighzercheetahore.productivityEnabledRecipes, 'slow-cheetah-fuel')
-table.insert(leighzermods.leighzercheetahore.productivityEnabledRecipes, 'nuclear-cheetah-fuel')
 
 for k, v in pairs(data.raw.module) do
     if v.name:find("productivity%-module") and v.limitation then
-    for _, recipe in ipairs(leighzermods.leighzercheetahore.productivityEnabledRecipes) do
-        if data.raw["recipe"][recipe] then
-        table.insert(v.limitation, recipe)
+        for _, recipe in ipairs(leighzermods.leighzercheetahore.productivityEnabledRecipes) do
+            if data.raw["recipe"][recipe] then
+                table.insert(v.limitation, recipe)
+            end
         end
-    end
     end
 end
 

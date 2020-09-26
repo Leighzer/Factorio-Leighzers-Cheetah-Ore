@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+  Changes:
+    - Remove ability to use prod modules with nuclear cheetah fuel to be consistent with regular nuclear fuel recipe.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.3
   Changes:
     - Version bump for 1.0
