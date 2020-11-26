@@ -24,7 +24,7 @@ data:extend({
         name = "nuclear-cheetah-fuel",
         icon_size = 128,
         icon = "__leighzercheetahore__/graphics/technology/nuclear-cheetah-fuel.png",
-        prerequisites = {"kovarex-enrichment-process"},
+        prerequisites = {"kovarex-enrichment-process", "utility-science-pack"},
         effects = {
             {type="unlock-recipe",recipe="nuclear-cheetah-fuel"}            
         },

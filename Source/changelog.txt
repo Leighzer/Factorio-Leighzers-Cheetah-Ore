@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+  Changes:
+    - Bump version to 1.1.
+    - Add utility science as a prereq to nuclear cheetah fuel tech.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.4
   Changes:
     - Remove ability to use prod modules with nuclear cheetah fuel to be consistent with regular nuclear fuel recipe.
