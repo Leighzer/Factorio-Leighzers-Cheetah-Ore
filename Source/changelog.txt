@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+  Changes:
+    - Restore ability to use prod modules with nuclear cheetah fuel recipe to be consistent with regular nuclear fuel recipe.
+    - Move enabling productivity for recipes to data-updates stage.    
+---------------------------------------------------------------------------------------------------
 Version: 0.3.0
   Changes:
     - Bump version to 1.1.

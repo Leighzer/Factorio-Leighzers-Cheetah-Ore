@@ -1,11 +1,11 @@
 {
   "name": "leighzercheetahore",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "title": "Leighzer's Cheetah Ore",
   "author": "Leighzer",
   "contact": "Please message me on the factorio forums my username is leighzer.",
   "homepage": "",
   "factorio_version": "1.1",
-  "dependencies": [ "base >= 1.1.0", "? rso-mod >= 6.2.0"],
+  "dependencies": [ "base >= 1.1.6", "? rso-mod >= 6.2.0"],
   "description": "Adds a new ore that can be processed into high octane fuels."
 }

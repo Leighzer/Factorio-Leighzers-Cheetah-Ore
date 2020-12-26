@@ -1,10 +1,8 @@
-data:extend(
-{
+data:extend({
   {
     type = "item-subgroup",
     name = "leighzercheetahore",
-	group = "intermediate-products",
-	order = "fa",
+    group = "intermediate-products",
+    order = "fa",
   }
-}
-)
+})

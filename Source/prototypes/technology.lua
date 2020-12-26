@@ -1,5 +1,4 @@
 data:extend({
-
     {        
         type = "technology",
         name = "cheetah-fuel",
@@ -36,5 +35,4 @@ data:extend({
         },
         order = "e-p-b-d"
     },
-
 })
